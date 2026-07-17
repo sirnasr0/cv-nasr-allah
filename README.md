@@ -5,7 +5,7 @@
 ![Vite](https://img.shields.io/badge/Vite-5-purple)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-3-38bdf8)
 
-🔗 **[Voir le site en ligne](#)**
+🔗 **[Voir le site en ligne](https://cv-nasr-allah.vercel.app/)**
 
 Site CV interactif en une page, conçu comme une expérience premium (inspiration Apple / Linear / Vercel / Framer) pour remplacer un CV PDF classique. Des micro-interactions soignées et un scroll fluide mettent en valeur mon parcours en Data Science et mes projets, tout en restant entièrement piloté par un seul fichier de contenu.
 
