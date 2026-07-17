@@ -1,5 +1,6 @@
 # CV Interactif — Data Analyst
 
+![License](https://img.shields.io/badge/license-MIT-green)
 ![React](https://img.shields.io/badge/React-18-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue)
 ![Vite](https://img.shields.io/badge/Vite-5-purple)
