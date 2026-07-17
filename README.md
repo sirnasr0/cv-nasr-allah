@@ -7,9 +7,9 @@
 
 🔗 **[Voir le site en ligne](#)**
 
-Site CV interactif en une page, conçu comme une expérience premium (inspiration Apple / Linear / Vercel / Framer) pour remplacer un CV PDF classique. Une scène 3D signature, des micro-interactions soignées et un scroll fluide mettent en valeur mon parcours en Data Science et mes projets, tout en restant entièrement piloté par un seul fichier de contenu.
+Site CV interactif en une page, conçu comme une expérience premium (inspiration Apple / Linear / Vercel / Framer) pour remplacer un CV PDF classique. Des micro-interactions soignées et un scroll fluide mettent en valeur mon parcours en Data Science et mes projets, tout en restant entièrement piloté par un seul fichier de contenu.
 
-Projet réalisé pour m'entraîner à construire un produit web complet de bout en bout : **design system → composants réutilisables → animations pilotées par le scroll → scène 3D → déploiement**, avec une architecture pensée pour être maintenue facilement.
+Projet réalisé pour m'entraîner à construire un produit web complet de bout en bout, avec une architecture pensée pour être maintenue facilement.
 
 > 🎓 Projet personnel réalisé dans le cadre de ma recherche d'alternance en Data Science.
 
@@ -17,7 +17,6 @@ Projet réalisé pour m'entraîner à construire un produit web complet de bout 
 
 - Concevoir un CV qui se distingue d'un PDF classique par l'expérience, sans sacrifier la lisibilité de l'information
 - Séparer strictement le contenu (un seul fichier `profile.ts`) de la mise en forme, pour pouvoir mettre à jour le CV sans toucher au code
-- Construire une scène 3D légère représentant un graphe de données, chargée en lazy-loading et désactivée sur mobile / `prefers-reduced-motion`
 - Piloter des animations de scroll (parallax, galerie horizontale, timeline progressive) avec GSAP + ScrollTrigger, synchronisées à un smooth scroll Lenis
 - Garantir l'accessibilité (focus visible, respect des préférences de mouvement réduit) malgré la richesse des animations
 
@@ -55,7 +54,7 @@ cv-website/
         │   ├── SectionHeading.tsx
         │   └── Tag.tsx
         ├── three/
-        │   └── HeroScene.tsx           ← scène 3D du Hero (react-three-fiber)
+        │   └── HeroScene.tsx           
         └── sections/                   ← une section = un fichier
             ├── Hero.tsx
             ├── About.tsx
@@ -75,7 +74,6 @@ cv-website/
 - **Framer Motion** — micro-interactions, reveals, transitions
 - **GSAP + ScrollTrigger** — animations pilotées par le scroll (parallax hero, galerie projets en scroll horizontal, ligne de timeline progressive)
 - **Lenis** — smooth scroll premium, synchronisé avec GSAP
-- **react-three-fiber + Three.js** — scène 3D signature : un graphe de données ambiant derrière le Hero (lazy-loaded, désactivé sur mobile et en cas de `prefers-reduced-motion`)
 - **ESLint** — qualité de code
 
 ## 📱 Aperçu des sections
@@ -84,7 +82,7 @@ Le site est composé de 8 sections, chacune dans son propre composant, assemblé
 
 | Section | Contenu |
 |---|---|
-| **Hero** | Nom, rôle animé (roulement de titres), accroche, chiffres clés, scène 3D, boutons "Voir mes projets" / "Me contacter" / "Télécharger mon CV" |
+| **Hero** | Nom, rôle animé (roulement de titres), accroche, chiffres clés, boutons "Voir mes projets" / "Me contacter" / "Télécharger mon CV" |
 | **À propos** | Portrait, paragraphes de présentation, informations clés (formation, rythme d'alternance, zone visée, langues) |
 | **Compétences** | Compétences groupées par catégorie avec barres de niveau colorées par outil |
 | **Formation** | Parcours académique (CNAM, ENSA) sous forme de cartes détaillées |
@@ -139,8 +137,7 @@ Sections du fichier à mettre à jour :
 
 - **Palette** : blanc-sauge (`paper`), encre verte profonde (`ink`), vert émeraude (`emerald`) comme accent principal, menthe pâle (`signal`) pour les touches lumineuses.
 - **Typographie** : Space Grotesk (titres), Inter (texte courant), IBM Plex Mono (dates, tags, données) — la monospace est utilisée comme signature visuelle pour tout ce qui est "donnée".
-- **Signature du site** : le graphe de nœuds 3D en arrière-plan du Hero, qui représente concrètement l'univers "data" plutôt qu'une décoration générique.
-- **Accessibilité** : focus visible, `prefers-reduced-motion` respecté partout (désactive Lenis, la scène 3D et les animations scrubbées).
+- **Accessibilité** : focus visible, `prefers-reduced-motion` respecté partout (désactive Lenis et les animations scrubbées).
 
 ## 🗺 Roadmap
 
