@@ -11,11 +11,11 @@ export const identity = {
   firstName: 'Nasr Allah',
   lastName: 'ABA-HADDOU',
   role: 'Data Analyst',
-  roleVariants: ['Data Analyst', 'Data Scientist en devenir', 'Futur Alternant'],
+  roleVariants: ['Data Analyst', 'Data Scientist en devenir', 'Futur Ingénieur'],
   tagline:
-    "Je transforme des données brutes en décisions claires. Étudiant ingénieur en Data Science, à la recherche d'une alternance Data Analyst pour la rentrée 2026.",
+    "Je transforme des données brutes en décisions claires. Étudiant ingénieur en Data Science, à la recherche d'un stage Data Analyst pour l'été 2027.",
   location: 'Mobilité nationale (France) & internationale',
-  availability: 'Disponible — Alternance rentrée 2026',
+  availability: 'Disponible — Stage été 2027',
   email: 'abahaddounasrallah@gmail.com',
   phone: '+212 6 43 32 37 97',
   linkedin: 'https://www.linkedin.com/in/nasr-allah-aba-haddou-234a013a7/',
@@ -25,7 +25,7 @@ export const identity = {
 
 export const stats = [
   { value: '4', label: 'Projets data de bout en bout' },
-  { value: '19', label: 'ans' },
+  { value: '20', label: 'ans' },
   { value: '3', label: 'Régions ciblées en France' },
   { value: '2026', label: 'Rentrée en alternance visée' },
 ]
@@ -34,13 +34,12 @@ export const about = {
   paragraphs: [
     "Passionné d'informatique depuis l'enfance, j'ai construit une base solide en algorithmique, développement logiciel et mathématiques appliquées avant de me spécialiser en Data Science.",
     "J'aime le travail précis : nettoyer un jeu de données hétérogène, écrire une requête lisible, construire un dashboard clair que personne n'a besoin de m'expliquer deux fois.",
-    "Admis au cycle ingénieur du CNAM en apprentissage, je recherche une alternance Data Analyst en Occitanie, Auvergne-Rhône-Alpes ou Provence-Alpes-Côte d'Azur pour mettre en pratique mes compétences en Machine Learning et analyse de données au sein d'une équipe tech.",
+    "Etudiant au cycle d'ingénieur de l'ENSA filière Informatique, je recherche un stage Data Analyst en Occitanie, Auvergne-Rhône-Alpes ou Provence-Alpes-Côte d'Azur pour mettre en pratique mes compétences en Machine Learning et analyse de données au sein d'une équipe tech.",
   ],
   highlights: [
-    { label: 'Formation', value: 'Cycle Ingénieur CNAM — En apprentissage (2026-2029)' },
-    { label: 'Rythme', value: '2 semaines entreprise / 2 semaines école' },
+    { label: 'Formation', value: 'ENSA - Filière Informatique (2026-2029)' },
     { label: 'Zone visée', value: 'Occitanie · Auvergne-Rhône-Alpes · PACA' },
-    { label: 'Langues', value: 'Arabe (natif), Français (courant), Anglais (courant)' },
+    { label: 'Langues', value: 'Arabe (natif), Français (courant), Anglais (courant), Espagnol (intermédiaire)' },
   ],
 }
 
