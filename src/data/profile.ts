@@ -299,18 +299,18 @@ export const timeline: TimelineItem[] = [
   {
     id: 'tl-5',
     date: '2026',
-    title: 'Admission — Cycle Ingénieur Data Science',
-    subtitle: 'CNAM — Chalon-sur-Saône',
-    description: 'Admission en apprentissage (2026-2029), recherche d\u2019alternance en cours.',
+    title: 'Admission — Cycle Ingénieur Informatique',
+    subtitle: 'Ecole Nationale des Sciences Appliqués (ENSA)',
+    description: 'Admission en cycle d\u2019 (2026-2029), recherche de stage en cours.',
     type: 'formation',
   },
   {
     id: 'tl-6',
     date: '2026',
-    title: 'Recherche d\u2019alternance Data Analyst',
+    title: 'Recherche de stage Data Analyst',
     subtitle: 'Prochaine étape',
     description:
-      "À la recherche d'une équipe data pour la rentrée 2026, en Occitanie, AURA ou PACA.",
+      "À la recherche d'une équipe data pour l'été 2027",
     type: 'formation',
   },
 ]
