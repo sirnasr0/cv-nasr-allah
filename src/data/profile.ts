@@ -131,18 +131,15 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     id: 'exp-1',
-    company: 'Conservatoire National des Arts et Métiers (CNAM)',
+    company: 'École Nationale des Sciences Appliquées (ENSA)',
     role: 'Cycle Ingénieur — Informatique & Data Science',
     period: '2026 — 2029',
-    location: 'Chalon-sur-Saône',
-    description:
-      'Admis au cycle ingénieur en apprentissage (2 semaines entreprise / 2 semaines école), en recherche active de la structure qui accueillera cette alternance Data Analyst.',
+    location: 'Tanger',
     achievements: [
       'Approfondissement du Machine Learning et de l\u2019analyse de données appliquée',
-      'Formation pensée pour une mise en pratique immédiate en entreprise',
-      'Recherche active d\u2019une alternance en Occitanie, AURA ou PACA',
+      'Recherche active d\u2019un stage pour l\u2019été 2027',
     ],
-    tags: ['Data Science', 'Machine Learning', 'Alternance'],
+    tags: ['Data Science', 'Machine Learning', 'Stage'],
   },
   {
     id: 'exp-2',
