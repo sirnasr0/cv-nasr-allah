@@ -135,6 +135,8 @@ export const experiences: Experience[] = [
     role: 'Cycle Ingénieur — Informatique & Data Science',
     period: '2026 — 2029',
     location: 'Tanger',
+    description:
+      'Étudiant en filière informatique de l\u2019ENSA.',
     achievements: [
       'Approfondissement du Machine Learning et de l\u2019analyse de données appliquée',
       'Recherche active d\u2019un stage pour l\u2019été 2027',
