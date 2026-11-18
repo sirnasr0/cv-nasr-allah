@@ -27,7 +27,7 @@ export const stats = [
   { value: '4', label: 'Projets data de bout en bout' },
   { value: '20', label: 'ans' },
   { value: '3', label: 'Régions ciblées en France' },
-  { value: '2026', label: 'Rentrée en alternance visée' },
+  { value: '2027', label: 'Objectif stage' },
 ]
 
 export const about = {
